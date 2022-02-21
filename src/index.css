@@ -1,0 +1,81 @@
+:root {
+  --primordial: #10807a;
+  --secundaria: #28a197;
+  --escura: #02121f;
+  --clara: rgb(213, 229, 235);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  
+  background-image: url(/fundo.jpg);
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+}
+
+.calculadora {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgb(65, 55, 155);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
+}
+.visor {
+  padding: 16px;
+  text-align: right;
+  background-color: var(--escura);
+  color: var(--clara);
+  font-size: 24px;
+  font-weight: 300;
+}
+.visor span{
+  font-size: 14px;
+  color: rgb(218, 29, 29);
+}
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color:#fff;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+button:hover {
+  opacity: 0.3;
+}
+
+.operadores{
+  display: flex;
+}
+
+
+.operadores button{
+  flex: 1 1 0%;
+  background-color:var(--primordial) ;
+  font-weight: 700;
+}
+.digitos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digitos button{
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+  background-color: var(--escura);
+}
