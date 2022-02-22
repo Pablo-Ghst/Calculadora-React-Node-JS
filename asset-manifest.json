@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Calculadora-React-Node-JS/static/css/main.b746f4dd.css",
+    "main.js": "/Calculadora-React-Node-JS/static/js/main.aaeb7917.js",
+    "static/media/fundo.jpg": "/Calculadora-React-Node-JS/static/media/fundo.f5a373d7521e67b070be.jpg",
+    "index.html": "/Calculadora-React-Node-JS/index.html",
+    "main.b746f4dd.css.map": "/Calculadora-React-Node-JS/static/css/main.b746f4dd.css.map",
+    "main.aaeb7917.js.map": "/Calculadora-React-Node-JS/static/js/main.aaeb7917.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b746f4dd.css",
+    "static/js/main.aaeb7917.js"
+  ]
+}
